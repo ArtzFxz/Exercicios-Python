@@ -1,0 +1,13 @@
+total = 0
+qtdP = 0
+continuar = true
+
+while continuar:
+    start = float(input("Digite 1 para continuar / Digite 2 para sair"))
+    if (start == 0):
+        break
+    else:
+        preco = float(input("Digite o preço do produto que deseja: "))
+
+total += preco
+qtdP += 1
